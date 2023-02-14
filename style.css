@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+body{
+    background-color: #f8fafd;
+    font-family: "inter", sans-serif;
+    color: #252525;
+    padding: 2rem;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+

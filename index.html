@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de Senha</title>
+</head>
+<body>
+    <header class="hero">
+        <h1 class="title">Gerador de senha</h1>
+        <p class="subtitle">Utilize o nosso gerador online para criar uma senha forte e segura</p>
+    </header>
+    <main>
+        <div>
+            <input type="text" name="senha" id="senha">
+            <input type="range" name="senha-lenght" id="senha-lenght" value="16" min="4" max="64" >
+        </div>
+        <div>
+            <h1>Personalizar</h1>
+        </div>
+        <button onclick="clicar()">Copiar senha</button>
+    </main>
+    <script src="script.js"> </script>
+</body>
+</html>
