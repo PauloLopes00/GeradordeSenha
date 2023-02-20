@@ -9,19 +9,30 @@
 
 body{
     background-color: #f8fafd;
-    font-family: "inter", sans-serif;
+    font-family: "Inter", sans-serif;
     color: #252525;
     padding: 2rem;
 }
 
 header{
     text-align: center;
+    padding-bottom: 40px;
 }
 
 main{
     max-width: 780px;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.subtitle{
+    font-size: 15px;
+    color: #828282;
 }
 
 
