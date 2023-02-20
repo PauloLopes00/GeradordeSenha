@@ -16,13 +16,18 @@
         <p class="subtitle">Utilize o nosso gerador online para criar uma senha forte e segura</p>
     </header>
     <main>
-        <div>
-            <input type="text" name="senha" id="senha">
-            <input type="range" name="senha-lenght" id="senha-lenght" value="16" min="4" max="64" >
-        </div>
-        <div>
-            <h1>Personalizar</h1>
-        </div>
+        <section id="box">
+            <div class="senha">
+                <div class="texto">
+                    <input type="text" name="senha" id="senha">
+                </div>
+                <div class="acao">
+                    <button onclick="clicar()">c</button>
+                    <button>a</button>
+                </div>
+            </div>
+        </section>
+        <input type="range" name="senha-lenght" id="senha-lenght" value="16" min="4" max="64">
         <button onclick="clicar()">Copiar senha</button>
     </main>
     <script src="script.js"> </script>

@@ -8,13 +8,14 @@
 }
 
 body{
-    background-color: #f8fafd;
+    background-color: rgba(238, 238, 241, 0.897);
     font-family: "Inter", sans-serif;
     color: #252525;
     padding: 2rem;
 }
 
 header{
+    max-width: 780px;
     text-align: center;
     padding-bottom: 40px;
 }
@@ -34,6 +35,17 @@ main{
     font-size: 15px;
     color: #828282;
 }
+
+.box{
+    background-color: blue;
+    box-shadow: 0 1px 2px rgba(132, 148,165, 0.1);
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+
+
+
 
 
 
