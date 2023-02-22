@@ -16,6 +16,7 @@ body{
 
 header{
     max-width: 780px;
+    margin: auto;
     text-align: center;
     padding-bottom: 40px;
 }
@@ -36,7 +37,7 @@ main{
     color: #828282;
 }
 
-#box{
+.box{
     background-color: #fff;
     box-shadow: 0 1px 2px rgba(132, 148,165, 0.1);
     border-radius: 8px;
@@ -100,6 +101,14 @@ input[type=text]{
 }
 .security-indicator .bar.safe{
     background-color: #27ae60;
+}
+
+.box1{
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(132, 148,165, 0.1);
+    border-radius: 8px;
+    text-align: left;
+    
 }
 
 
