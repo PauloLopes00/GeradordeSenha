@@ -36,16 +36,70 @@ main{
     color: #828282;
 }
 
-.box{
-    background-color: blue;
+#box{
+    background-color: #fff;
     box-shadow: 0 1px 2px rgba(132, 148,165, 0.1);
     border-radius: 8px;
     margin-bottom: 32px;
 }
+.senha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.acao{
+    flex-direction: end;
+}
 
+input[type=text]{
+    font-family: 'Inconsolata', monospace;
+    font-size: 28px;
+    border: none;
+    outline: none;
+    cursor: default;
+    height: 52px;
+    width: 100%;
+    transition: all 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
+.botao{
+    width: 28px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+.security-indicator{
+    height:10px;
+    background-color: #ddd;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.security-indicator-bar{
+    height:10px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: all 0.2;
+}
 
-
-
+.security-indicator .bar.completed{
+    border-top-right-radius: 0;
+}
+.security-indicator .bar.critical{
+    background-color: #eb5757;
+}
+.security-indicator .bar.warning{
+    background-color: #f2c94c;
+}
+.security-indicator .bar.safe{
+    background-color: #27ae60;
+}
 
 
