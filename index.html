@@ -31,7 +31,7 @@
                         content_copy
                         </span></button>
                     <button class="botao"><span class="material-symbols-outlined">
-                        updatel/xc,v,v,v,v,l,  
+                        update  
                         </span></button>
                 </div>
             </div>
@@ -42,8 +42,27 @@
         <section class="box1 customize">
             <h3 class="title01">Personalizar</h3>
             <div class="actions">
-                <p>Tamanho: <span id="password-length-text">16</span></p>
-                <input type="range" name="senha-lenght" id="senha-lenght" value="16" min="4" max="64">
+                <div class="password-length">
+                    <p>Tamanho: <span id="password-length-text">16</span></p>
+                    <input type="range" name="senha-lenght" class="slider" id="senha-lenght" value="16" min="4" max="64">
+                </div>
+                <div class="config">
+                    <label class="checkbox-container">
+                        <span class="text">Maiúsculas</span>
+                        <input type="checkbox" name="txtmaius" id="txtmaius" checked>
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">
+                        <span class="text">Números</span>
+                        <input type="checkbox" name="txtnum" id="txtnum" checked>
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">
+                        <span class="text">Símbolos</span>
+                        <input type="checkbox" name="txtmaius" id="txtmaius" checked>
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
             </div>
       
         </section>
