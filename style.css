@@ -122,11 +122,11 @@ input[type=text]{
 .customize{
     padding: 10px 15px;
 }
-.actions{
+/*.actions{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+}*/
 
 
 .slider{
@@ -146,7 +146,7 @@ input[type=text]{
     cursor: pointer;
 }
 
-.checkbox-container{
+/*.checkbox-container{
     flex-direction: end;
     color: #828282;
     display:block;
